@@ -16,7 +16,7 @@ for index,column_header in enumerate(header_row):
 date_index = header_row.index('DATE')
 high_index = header_row.index('TMAX')
 low_index = header_row.index('TMIN')
-name_index = header_row.index('NAME')
+
 
 highs = []
 dates = []
