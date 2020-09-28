@@ -46,9 +46,9 @@ for row in csv_file:
 
 import matplotlib.pyplot as plt
 
-fig = plt.figure()
+fig, ax = plt.subplots(2) 
 
-plt.plot(dates,highs,c="red",alpha=0.5)
+ax[0].plot(dates,highs,c="red",alpha=0.5)
 plt.plot(dates,lows,c="blue",alpha=0.5)
 
 plt.title("Daily High and Low Temperatures - 2018\nDeath Valley",fontsize=16)
